@@ -14,8 +14,28 @@ body {
   font-weight: 700;
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#info-container {
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  background-color: rgba(113, 37, 113);
+  color: #fff;
+  border-radius: 10px;
+}
+
+#info-container a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+#info-container .button-container {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .quote-container {

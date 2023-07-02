@@ -13,9 +13,6 @@ async function getQuotes() {
     // Catch error
     alert(error);
   }
-  setTimeout(() => {
-    toggleLoader(false);
-  }, 1000);
 }
 
 function getRandomQuote() {
@@ -43,6 +40,7 @@ function tweetQuote() {
 
 function toggleLoader(state) {
   document.getElementById("quote-container").hidden = state;
+  document.getElementById("info-container").hidden = state;
   loader.hidden = !state;
 }
 
