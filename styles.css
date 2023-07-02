@@ -19,6 +19,8 @@ body {
 }
 
 .quote-container {
+  height: auto;
+  width: auto;
   max-width: 900px;
   padding: 20px 30px;
   border-radius: 10px;
